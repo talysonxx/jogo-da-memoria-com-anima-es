@@ -8,10 +8,17 @@
 html {
   font-family: 'Righteous', sans-serif;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c7cdd3;
+}
 
 .card {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 
   position: relative;
   transform-style: preserve-3d;
@@ -23,12 +30,10 @@ html {
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
 
-  /* flex */
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  /* animaiton */
+
   position: absolute;
   /* determines whether or not to display the back of the element to the user. hidden: the element is not visible when not facing the screen. so when the element is at 180deg it is not shown on the screen */
   backface-visibility: hidden;
@@ -47,7 +52,7 @@ html {
   /* display: none; */
 }
 img {
-  width: 80%;
+  width: 65%;
 }
 
 #game-ver {
@@ -76,4 +81,14 @@ img {
 #restart:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 0, 0.734);
+}
+
+#game-board {
+  max-width: 700px;
+
+  display: grid;
+  /* 5 line and 4 columns */
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  /* distance between elements */
+  gap: 10px;
 }
