@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-family: 'Righteous', sans-serif;
 }
@@ -43,4 +48,32 @@ html {
 }
 img {
   width: 80%;
+}
+
+#game-ver {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-size: 2rem;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#restart {
+  padding: 15px;
+  font-size: 1.5rem;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+#restart:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 0, 0.734);
 }
