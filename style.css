@@ -6,7 +6,11 @@ html {
 
 .card {
   width: 150px;
-  height: 150px
+  height: 150px;
+
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
 }
 .card-front, .card-back {
   width: 100%;
@@ -14,19 +18,29 @@ html {
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
 
+  /* flex */
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  /* animaiton */
+  position: absolute;
+  /* determines whether or not to display the back of the element to the user. hidden: the element is not visible when not facing the screen. so when the element is at 180deg it is not shown on the screen */
+  backface-visibility: hidden;
+}
+.flip {
+  transform: rotateY(180deg);
 }
 .card-front {
   background-color: #101c2c;
+  transform: rotateY(180deg);
 }
 .card-back {
   color: #101c2c;
   background-color: #05c3ff;
   font-size: 30px;
+  /* display: none; */
 }
-
 img {
   width: 80%;
 }
