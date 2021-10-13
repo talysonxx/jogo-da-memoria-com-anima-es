@@ -1,3 +1,4 @@
+![Screenshot_1](https://user-images.githubusercontent.com/79946114/137195292-89bf8613-73ac-4f3d-a06f-90a2df94922b.png)
 # Jogo da memória com animações
 
 ### Clone o projeto
