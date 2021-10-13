@@ -1,10 +1,10 @@
-# Jogo da mem?ria com anima??es
+# Jogo da memória com animações
 
 ### Clone o projeto
 
 Abra o arquivo index.html
 
-Principais fontes de conte�do
+Principais fontes de conteúdo
 
 * [Programador BR](https://www.youtube.com/c/Programadorbr)
 
@@ -12,5 +12,5 @@ Meus **contatos**
 
   * meu instagram: [@talysonxx](https://instagram.com/talysonxx)
   * meu email: talysonoficial12@gmail.com
-  * meu linkedIn:  [Talyson Andr�](https://www.linkedin.com/in/talyson-andr�-101897170/)
+  * meu linkedIn:  [Talyson André](https://www.linkedin.com/in/talyson-andré-101897170/)
 
