@@ -1,4 +1,4 @@
-# Jogo da velha com animações
+# Jogo da mem?ria com anima??es
 
 ### Clone o projeto
 
