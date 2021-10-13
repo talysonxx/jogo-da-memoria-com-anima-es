@@ -7,7 +7,7 @@ const ICON = 'icon'
 startGame()
 
 function startGame() {
-
+  if (localStorage.getItem('game-data'))
   game.createCardsFromTechs()
 
   initializeCards()
