@@ -20,7 +20,7 @@ let game = {
     }
   },
   checkMath: function() {
-    if (!this.firstCard || !this.secondCard) return false
+    // if (!this.firstCard || !this.secondCard) return false
 
     let check = this.firstCard.icon === this.secondCard.icon
     return check
@@ -78,7 +78,7 @@ let game = {
   createIdWithTech: function(tech) {
     return tech + parseInt(Math.random() * 1000)
   },
-  shuffleCards: function(cards) {
+  shuffleCards: function() {
     let currentIndex = this.cards.length
     let randomIndex = 0
   
